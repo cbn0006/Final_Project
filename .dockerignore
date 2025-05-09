@@ -1,0 +1,15 @@
+**
+
+!CreateMutants/
+!CustomExtension/*
+!Extension/airflow-vscode-extension-main/
+!Extension/airflow-snippets-main/
+!ExtensionFuzzerCommunication/
+!FilterMutants/
+!FuzzingHarness/
+!Guidance/
+!Logging/createLogsAndBackups.py
+!SnippetFuzzer/
+!extensionMutationFuzzer.py
+!requirements.txt
+!Dockerfile

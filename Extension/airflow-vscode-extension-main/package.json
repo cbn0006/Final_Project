@@ -1,0 +1,280 @@
+{
+	"name": "airflow-vscode-extension",
+	"displayName": "Airflow",
+	"description": "Apache Airflow UI Extension to List/Trigger DAGs, View Logs and much more",
+	"version": "1.6.0",
+	"publisher": "NecatiARSLAN",
+	"icon": "media/airflow-extension-logo.png",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/necatiarslan/airflow-vscode-extension"
+	},
+	"engines": {
+		"vscode": "^1.69.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [],
+	"main": "./dist/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "dagTreeView.refreshServer",
+				"title": "Refresh",
+				"icon": "$(refresh)"
+			},
+			{
+				"command": "dagTreeView.connectServer",
+				"title": "Connect",
+				"icon": "$(plug)"
+			},
+			{
+				"command": "dagTreeView.addServer",
+				"title": "Add",
+				"icon": "$(add)"
+			},
+			{
+				"command": "dagTreeView.removeServer",
+				"title": "Remove",
+				"icon": "$(remove)"
+			},
+			{
+				"command": "dagTreeView.filter",
+				"title": "Filter",
+				"icon": "$(filter)"
+			},
+			{
+				"command": "dagTreeView.showOnlyActive",
+				"title": "Show Only Active",
+				"icon": "$(circle-large-filled)"
+			},
+			{
+				"command": "dagTreeView.showOnlyFavorite",
+				"title": "Show Only Favorite",
+				"icon": "$(bookmark)"
+			},
+			{
+				"command": "dagTreeView.viewDagView",
+				"title": "View",
+				"icon": "$(preview)"
+			},
+			{
+				"command": "dagTreeView.triggerDag",
+				"title": "Trigger",
+				"icon": "$(run)"
+			},
+			{
+				"command": "dagTreeView.triggerDagWithConfig",
+				"title": "Trigger DAG w/Config"
+			},
+			{
+				"command": "dagTreeView.checkDagRunState",
+				"title": "Check Run State"
+			},
+			{
+				"command": "dagTreeView.checkAllDagsRunState",
+				"title": "Check All Run State"
+			},
+			{
+				"command": "dagTreeView.pauseDAG",
+				"title": "Pause DAG"
+			},
+			{
+				"command": "dagTreeView.unPauseDAG",
+				"title": "UnPause DAG"
+			},
+			{
+				"command": "dagTreeView.addToFavDAG",
+				"title": "Fav DAG"
+			},
+			{
+				"command": "dagTreeView.deleteFromFavDAG",
+				"title": "UnFav DAG"
+			},
+			{
+				"command": "dagTreeView.lastDAGRunLog",
+				"title": "Run Log",
+				"icon": "$(output)"
+			},
+			{
+				"command": "dagTreeView.dagSourceCode",
+				"title": "Source Code",
+				"icon": "$(code)"
+			},
+			{
+				"command": "dagTreeView.showDagView",
+				"title": "DAG View"
+			},
+			{
+				"command": "dagTreeView.clearServers",
+				"title": "Clear Servers"
+			}
+		],
+		"menus": {
+			"view/title": [
+				{
+					"command": "dagTreeView.refreshServer",
+					"when": "view == dagTreeView",
+					"group": "navigation@7"
+				},
+				{
+					"command": "dagTreeView.connectServer",
+					"when": "view == dagTreeView",
+					"group": "navigation@6"
+				},
+				{
+					"command": "dagTreeView.addServer",
+					"when": "view == dagTreeView",
+					"group": "navigation@5"
+				},
+				{
+					"command": "dagTreeView.removeServer",
+					"when": "view == dagTreeView",
+					"group": "navigation@4"
+				},
+				{
+					"command": "dagTreeView.filter",
+					"when": "view == dagTreeView",
+					"group": "navigation@3"
+				},
+				{
+					"command": "dagTreeView.showOnlyActive",
+					"when": "view == dagTreeView",
+					"group": "navigation@2"
+				},
+				{
+					"command": "dagTreeView.showOnlyFavorite",
+					"when": "view == dagTreeView",
+					"group": "navigation@1"
+				},
+				{
+					"command": "dagTreeView.clearServers",
+					"when": "view == dagTreeView",
+					"group": "other"
+				}
+			],
+			"view/item/context": [
+				{
+					"command": "dagTreeView.viewDagView",
+					"when": "view == dagTreeView",
+					"group": "inline"
+				},
+				{
+					"command": "dagTreeView.triggerDag",
+					"when": "view == dagTreeView",
+					"group": "inline"
+				},
+				{
+					"command": "dagTreeView.lastDAGRunLog",
+					"when": "view == dagTreeView",
+					"group": "inline"
+				},
+				{
+					"command": "dagTreeView.triggerDagWithConfig",
+					"when": "view == dagTreeView",
+					"group": "trigger"
+				},
+				{
+					"command": "dagTreeView.checkDagRunState",
+					"when": "view == dagTreeView",
+					"group": "trigger"
+				},
+				{
+					"command": "dagTreeView.checkAllDagsRunState",
+					"when": "view == dagTreeView",
+					"group": "trigger"
+				},
+				{
+					"command": "dagTreeView.pauseDAG",
+					"when": "view == dagTreeView",
+					"group": "pause"
+				},
+				{
+					"command": "dagTreeView.unPauseDAG",
+					"when": "view == dagTreeView",
+					"group": "pause"
+				},
+				{
+					"command": "dagTreeView.addToFavDAG",
+					"when": "view == dagTreeView",
+					"group": "fav"
+				},
+				{
+					"command": "dagTreeView.deleteFromFavDAG",
+					"when": "view == dagTreeView",
+					"group": "fav"
+				},
+				{
+					"command": "dagTreeView.dagSourceCode",
+					"when": "view == dagTreeView",
+					"group": "other"
+				},
+				{
+					"command": "dagTreeView.showDagView",
+					"when": "view == dagTreeView",
+					"group": "other"
+				}
+			]
+		},
+		"viewsContainers": {
+			"activitybar": [
+				{
+					"id": "airflow-explorer",
+					"title": "Airflow",
+					"icon": "media/airflow-extension-logo.png"
+				}
+			]
+		},
+		"views": {
+			"airflow-explorer": [
+				{
+					"id": "dagTreeView",
+					"name": "Airflow",
+					"icon": "media/airflow-extension-logo.png"
+				}
+			]
+		},
+		"viewsWelcome": [
+			{
+				"view": "dagTreeView",
+				"contents": "To connect to Airflow Click Below \n [Connect to Airflow](command:dagTreeView.addServer)\n\n You should enable REST Api in the Airflow to connect.\n For now, only basic authentication (username/password) supported.\n [learn more](https://github.com/necatiarslan/airflow-vscode-extension/blob/main/README.md) \n\n Click [here](https://www.youtube.com/watch?v=aTaytcxy2Ck) on how to run Airflow in your local machine in 5 mins."
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run package",
+		"compile": "webpack",
+		"watch": "webpack --watch",
+		"package": "webpack --mode production --devtool hidden-source-map",
+		"compile-tests": "tsc -p . --outDir out",
+		"watch-tests": "tsc -p . -w --outDir out",
+		"pretest": "npm run compile-tests && npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/base-64": "^1.0.0",
+		"@types/glob": "^7.2.0",
+		"@types/mocha": "^9.1.1",
+		"@types/node": "^16.18.126",
+		"@types/vscode": "^1.69.0",
+		"@typescript-eslint/eslint-plugin": "^5.30.0",
+		"@typescript-eslint/parser": "^5.30.0",
+		"@vscode/test-electron": "^2.1.5",
+		"eslint": "^8.18.0",
+		"glob": "^8.0.3",
+		"mocha": "^10.0.0",
+		"ts-loader": "^9.3.1",
+		"typescript": "^4.7.4",
+		"webpack": "^5.73.0",
+		"webpack-cli": "^4.10.0"
+	},
+	"dependencies": {
+		"@vscode/codicons": "^0.0.32",
+		"@vscode/webview-ui-toolkit": "^1.0.0",
+		"base-64": "^1.0.0",
+		"node-fetch": "^3.2.9",
+		"tmp": "^0.2.1"
+	}
+}

@@ -1,0 +1,105 @@
+funcName,args,coverage,error
+Api.isApiParamsSet,[],"{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""isApiParamsSet""]}","TypeError: Cannot read properties of undefined (reading 'apiUrl')
+	at isApiParamsSet (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:232:19)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""tKvpFQKAZVJ7gnbf\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""RZSxPGY9iW\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""Ov5MQ\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""WauTYqhLNGS1M\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""CMSZprpx8gxiut\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""VFX\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""xPqm4ju9VV83aagsTxA\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""t5Z5Zf\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""UXoQdKoIP1vQ\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""pCAHhNFnnepyYun3\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""6gEYW3tMCbLw\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""xewiJ\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""OQyY2QAef10\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-b4ue8rb5/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.isApiParamsSet,[],"{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""isApiParamsSet""]}","TypeError: Cannot read properties of undefined (reading 'apiUrl')
+	at isApiParamsSet (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:232:19)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""1spwk99yWHRIZo\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""0hg2mtjTmEwlY\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""7TqiWV8or6azwFfay\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""fsNq6TlXdtB\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""IbV9bJdnN\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""jRqKyGNXDYtPicg7\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""oIOxRJfqRxdION3OV\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""LKys9CYDgNlGVWLGM9\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""eCQaFJ1uyHFMBZAmqa7\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""ELKycuGlAa\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"
+Api.getLastDagRun,"[""\""qkVSJXDiRHCJn6d5Um\""""]","{""file:///Final%20Project/Logging/Backups/Airflow%20by%20NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js"": [""getLastDagRun"", ""logToOutput""]}","TypeError: Cannot read properties of undefined (reading 'getDagRunHistory')
+	at getLastDagRun (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:492:33)
+	at runFuzzerHarness (/Final Project/Logging/Backups/Airflow by NecatiARSLAN/ext-fuzz-qomxhdms/airflow-vscode-extension-main/dist/extension.js:146:25)
+	at process.processTicksAndRejections (node:internal/process/task_queues:95:5)"

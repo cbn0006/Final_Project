@@ -1,0 +1,40 @@
+// .devcontainer/devcontainer.json
+{
+  "name": "Guided Fuzzer",
+  "build": {
+    "context": "..",
+    "dockerfile": "../Dockerfile"
+  },
+  "runArgs": [
+    "--env", "DISPLAY=${env:DISPLAY}",
+    "--volume", "/tmp/.X11-unix:/tmp/.X11-unix"
+  ],
+  "containerEnv": {
+    "DISPLAY": "${env:DISPLAY}",
+    "VSCODE_GUI": "/usr/local/bin/code-gui"
+  },
+  "workspaceFolder": "/Final Project",
+  "forwardPorts": [5000],
+  "postCreateCommand": "pip install --no-cache-dir -r requirements.txt",
+  "remoteUser": "root",
+  "mounts": [
+    "source=${localWorkspaceFolder}/CustomExtension/snippet-finder-0.0.1.vsix,target=/tmp/snippet-finder.vsix,type=bind,consistency=cached",
+    "source=${localWorkspaceFolder},target=/Final Project,type=bind,consistency=cached"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python",
+        "ms-vscode-remote.remote-containers",
+        "lucasmelin.airflow-snippets",
+        "GraysonStream.airflow-templates",
+        "NecatiARSLAN.airflow-vscode-extension",
+        "WesleyBatista.airflow-dag-viewer",
+        "mlops-club.bentoml",
+        "iterative.dvc",
+        "ZenML.zenml-vscode",
+        "mechatroner.rainbow-csv"
+      ]
+    }
+  }
+}
